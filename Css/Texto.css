@@ -64,8 +64,27 @@ table th{
 }
 
 body{
-    background-image: url("Gradient.svg");
+    background-image: url("../Img/Gradient.svg");
     background-position-y: 20%;
+}
+
+.form{
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.form article{
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.form button{
+    background-color: #510882;
+    color: aliceblue;
+    padding: 5px;
+    width: 110px;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 
 footer{
